@@ -1,0 +1,32 @@
+package aula04_Repeticao;
+
+import java.util.Scanner;
+
+public class AmplitudeTermica {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		double temperaturaMax = 0;
+		double temperaturaMin = 0;
+		
+		for(int i = 1 ; i <= 8; i++) {
+			double temperatura = scanner.nextDouble();
+			if(i == 1) {
+				temperaturaMax = temperatura;
+				temperaturaMin = temperatura;
+			} else {
+				if(temperatura > temperaturaMax) {
+					temperaturaMax = temperatura;
+				}
+				if(temperatura < temperaturaMin) {
+					temperaturaMin = temperatura;
+				}
+			}
+		}
+		
+		double amplitude = temperaturaMax - temperaturaMin;
+		System.out.println("A amplitude térmica é "+amplitude+" ºC");
+	}
+
+}

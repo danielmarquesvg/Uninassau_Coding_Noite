@@ -1,0 +1,9 @@
+package aula04_Repeticao;
+
+public class AmplitudeTermica {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

@@ -1,0 +1,15 @@
+package aula04_Repeticao;
+
+public class DivisivelPor3 {
+	
+	public static void main(String[] args) {
+		for(int i = 10; i >= -10; i--) {
+			if(i % 3 == 0) {
+				System.out.print("O número "+i+" é divisível por 3");
+			} else {
+				System.out.print("O número "+i+" não é divisível por 3");
+			}
+		}
+	}
+
+}
