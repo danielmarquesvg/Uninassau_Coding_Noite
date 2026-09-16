@@ -1,0 +1,41 @@
+package aula04_Repeticao;
+
+import java.util.Scanner;
+
+public class CRE {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		double menorCre = 0;
+		String matriculaMenorCRE = "";
+		
+		String matricula = "";
+		double cre = 0;
+		int contador = 1;
+		double somaCRE = 0;
+		
+		while(!matricula.equals("999")) {
+			matricula = scanner.next();
+			if(!matricula.equals("999")) {
+				cre = scanner.nextDouble();
+				if(contador == 1) {
+					menorCre = cre;
+					matriculaMenorCRE = matricula;
+				} else {
+					if(cre < menorCre) {
+						menorCre = cre;
+						matriculaMenorCRE = matricula;
+					}
+				}
+			}
+			somaCRE = somaCRE + cre;
+			contador = contador + 1;
+		}
+		double mediaCRE = somaCRE / contador;
+		System.out.print(matriculaMenorCRE+"\n");
+		System.out.print(mediaCRE);
+		scanner.close();
+	}
+}

@@ -8,45 +8,34 @@ public class CRE {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		String matricula = "1";
-		
-		double menorCRE = 0;
+		double menorCre = 0;
 		String matriculaMenorCRE = "";
 		
+		String matricula = "";
+		double cre = 0;
 		int contador = 0;
 		double somaCRE = 0;
 		
-		//a matrícula do menor CRE
-		//média de todos os CREs com duas casas decimais
-
 		while(!matricula.equals("999")) {
-			
-			double cre;
-			if(contador == 0) {
-				matricula = scanner.next();
+			matricula = scanner.next();
+			if(!matricula.equals("999")) {
 				cre = scanner.nextDouble();
-				menorCRE = cre;
-				matriculaMenorCRE = matricula;
-			} else {
-				matricula = scanner.next();
-				cre = scanner.nextDouble();
-				
-				if(cre < menorCRE) {
-					menorCRE = cre;
+				if(contador == 0) {
+					menorCre = cre;
 					matriculaMenorCRE = matricula;
+				} else {
+					if(cre < menorCre) {
+						menorCre = cre;
+						matriculaMenorCRE = matricula;
+					}
 				}
+				somaCRE = somaCRE + cre;
+				contador = contador + 1;
 			}
-			contador = contador + 1;
-			somaCRE = somaCRE + cre;
-			
 		}
-		//FORA DO WHILE
 		double mediaCRE = somaCRE / contador;
-		
 		System.out.print(matriculaMenorCRE+"\n");
-		System.out.print(menorCRE);
-		
-		
+		System.out.printf("%.2f",mediaCRE);
+		scanner.close();
 	}
-
 }

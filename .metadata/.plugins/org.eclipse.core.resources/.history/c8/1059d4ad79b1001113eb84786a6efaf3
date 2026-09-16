@@ -1,0 +1,29 @@
+package aula04_Repeticao;
+
+import java.util.Scanner;
+
+public class CRE {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		double menorCre;
+		String matriculaMenorCRE;
+		
+		String matricula = "";
+		double cre = 0;
+		int contador = 0;
+		
+		while(!matricula.equals("999")) {
+			matricula = scanner.next();
+			if(!matricula.equals("999")) {
+				cre = scanner.nextDouble();
+			}
+		}
+		
+		
+		
+	}
+
+}

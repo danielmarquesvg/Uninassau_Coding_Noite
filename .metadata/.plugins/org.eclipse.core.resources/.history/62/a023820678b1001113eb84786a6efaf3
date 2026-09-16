@@ -1,11 +1,13 @@
 package aula04_Repeticao;
 
+import java.util.Scanner;
+
 public class CRE {
 	
 	public static void main(String[] args) {
 		
-		String matricula;
-		double cre;
+		Scanner scanner = new Scanner(System.in);
+		
 	}
 
 }
