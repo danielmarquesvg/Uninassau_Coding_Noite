@@ -1,0 +1,46 @@
+package aula04_Repeticao;
+
+import java.util.Scanner;
+
+public class CRE {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		String matricula = "1";
+		
+		double menorCRE = 0;
+		String matriculaMenorCRE;
+		
+		int contador = 1;
+		double somaCRE = 0;
+		
+		//a matrícula do menor CRE
+		//média de todos os CREs com duas casas decimais
+		
+		while(!matricula.equals("999")) {
+			if(contador == 1) {
+				matricula = scanner.next();
+				double cre = scanner.nextDouble();
+				menorCRE = cre;
+				matriculaMenorCRE = matricula;
+			} else {
+				matricula = scanner.next();
+				double cre = scanner.nextDouble();
+				
+				if(cre < menorCRE) {
+					menorCRE = cre;
+					matriculaMenorCRE = matricula;
+				}
+			}
+			contador = contador + 1;
+			
+		}
+		//FORA DO WHILE
+		
+		
+		
+	}
+
+}

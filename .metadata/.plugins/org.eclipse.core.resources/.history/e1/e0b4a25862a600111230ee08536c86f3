@@ -1,9 +1,0 @@
-package aula03;
-
-public class Abastecimento {
-	
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-	}
-
-}

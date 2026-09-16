@@ -1,0 +1,11 @@
+package aula04_Repeticao;
+
+public class CRE {
+	
+	public static void main(String[] args) {
+		
+		String matricula;
+		double cre;
+	}
+
+}

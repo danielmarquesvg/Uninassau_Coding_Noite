@@ -1,0 +1,22 @@
+package aula04_Repeticao;
+
+import java.util.Scanner;
+
+public class RepeticaoIndeterminadaSoma {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int soma = 0;
+		int numero = 1234567890;
+		
+		while(numero != 0) {
+			System.out.print("\nDigite um valor:");
+			numero = scanner.nextInt();
+			
+			soma = soma + numero;
+			System.out.print("Soma parcial = "+soma);
+		}
+	}
+
+}

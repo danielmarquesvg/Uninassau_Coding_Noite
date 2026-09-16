@@ -1,0 +1,15 @@
+package aula04_Repeticao;
+
+public class Calculadora {
+	
+	public static void main(String[] args) {
+		
+		int opcao = -1;
+		
+		while(opcao != 5) {
+			
+		}
+		
+	}
+
+}

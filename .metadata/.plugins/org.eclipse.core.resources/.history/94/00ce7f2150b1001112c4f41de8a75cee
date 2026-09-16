@@ -1,0 +1,11 @@
+package aula04_Repeticao;
+
+import java.util.Scanner;
+
+public class RepeticaoIndeterminadaSoma {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

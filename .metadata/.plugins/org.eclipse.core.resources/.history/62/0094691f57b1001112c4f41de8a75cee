@@ -1,0 +1,24 @@
+package aula04_Repeticao;
+
+public class Calculadora {
+	
+	public static void main(String[] args) {
+		
+		int opcao = -1;
+		
+		while(opcao != 5) {
+			System.out.print("=== CALCULADORA DA SHOPEE ===");
+			System.out.println(); //pular linha
+			System.out.print("Opções\n");
+			System.out.print("1 - soma\n");
+			System.out.print("2 - subtração\n");
+			System.out.print("3 - multiplicação\n");
+			System.out.print("4 - divisão\n");
+			System.out.println(); //pular linha
+			System.out.print("Digite uma opção: ");
+			
+		}
+		
+	}
+
+}
