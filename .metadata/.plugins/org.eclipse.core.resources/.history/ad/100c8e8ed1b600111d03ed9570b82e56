@@ -1,0 +1,23 @@
+package aula05_Array;
+
+public class Exemplo01_CriandoArray {
+	
+	public static void main(String[] args) {
+		
+		//instanciação
+		String nome;
+		String [] listinha;
+		
+		//inicialização
+		nome = "Daniel";
+		listinha = new String [100];
+		
+		String [] listaDeCompras = new String [100];
+		
+		//Exibindo os elementos
+		for(int i = 0; i < 100; i++) {
+			System.out.println(i+" "+listinha[0]);
+		}
+	}
+
+}

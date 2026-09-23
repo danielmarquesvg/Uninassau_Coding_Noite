@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula05_Array.Temperatura&apos; to &apos;Nota&apos;&#x0D;&#x0A;- Original project: &apos;ProjetoADS&apos;&#x0D;&#x0A;- Original element: &apos;aula05_Array.Temperatura&apos;&#x0D;&#x0A;- Renamed element: &apos;aula05_Array.Nota&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Temperatura&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula05_Array{Temperatura.java[Temperatura" matchStrategy="1" name="Nota" qualified="false" references="true" similarDeclarations="false" stamp="1790115465077" textual="false" version="1.0"/>
+</session>

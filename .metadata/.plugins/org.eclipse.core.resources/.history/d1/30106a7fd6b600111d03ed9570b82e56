@@ -1,0 +1,33 @@
+package aula05_Array;
+
+import java.util.Scanner;
+
+public class Nota {
+	
+	public static void main(String[] args) {
+		
+		/* Escreva um programa que peça para
+		 * o usuário digitar 10 notas e salve-as
+		 * em um array, depois percorra o array e
+		 * exiba a menor nota
+		 */
+		
+		Scanner scanner = new Scanner(System.in);
+		double [] listaDeNotas = new double [10];
+		
+		for(int i = 0; i < 10; i++) {
+			System.out.print("Digite a "+i+1+" nota: ");
+			listaDeNotas[i] = scanner.nextDouble();
+		}
+		
+		double menorNota = listaDeNotas[0];
+		for(int i = 1; i < 10; i++) {
+			if(listaDeNotas[i] < menorNota) {
+				menorNota = listaDeNotas[i];
+			}
+		}
+		
+		System.out.println("A menor nota é: "+menorNota);
+	}
+
+}
