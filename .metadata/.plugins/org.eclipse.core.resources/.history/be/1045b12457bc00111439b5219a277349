@@ -1,0 +1,9 @@
+package revisao;
+
+public class Questao15_MediaPonderado {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

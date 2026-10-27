@@ -1,0 +1,19 @@
+package revisao;
+
+import java.util.Scanner;
+
+public class Questao15_MediaPonderado {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		double nota1 = scanner.nextDouble();
+		double nota2 = scanner.nextDouble();
+		double nota3 = scanner.nextDouble();
+		
+		double calculo = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10;
+		
+		System.out.println("Nota ponderada = "+calculo);
+	}
+
+}

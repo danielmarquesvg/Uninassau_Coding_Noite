@@ -1,0 +1,9 @@
+package revisao;
+
+public class Lista_MediaPositivoNegativo {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

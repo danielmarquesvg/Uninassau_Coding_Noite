@@ -1,0 +1,9 @@
+package revisao;
+
+public class Questao22_Equacao2Grau {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

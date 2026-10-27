@@ -1,0 +1,13 @@
+package aula05_ArrayList;
+
+public class IniciandoArrayList {
+	
+	public static void main(String[] args) {
+		//array estático - vulgo array
+		String [] listaDeCompras = new String [10];
+		
+		//array dinâmico - vulgo arrayList
+		ArrayList <String> listaDeItens = new ArrayList <String>();
+	}
+
+}

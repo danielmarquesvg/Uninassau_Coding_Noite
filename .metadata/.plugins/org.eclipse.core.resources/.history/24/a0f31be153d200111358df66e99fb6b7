@@ -1,0 +1,27 @@
+package aula05_ArrayList;
+
+import java.util.ArrayList;
+
+public class IniciandoArrayList {
+	
+	public static void main(String[] args) {
+		//array estático - vulgo array
+		String [] listaDeCompras = new String [10];
+		
+		//array dinâmico - vulgo arrayList
+		ArrayList <String> listaDeItens = new ArrayList <String>();
+		Scanner scanner = new Scanner(System.in);
+		
+		//adicionando elementos no arrayList
+		listaDeItens.add("Raquel");
+		listaDeItens.add("Daniel");
+		listaDeItens.add("Aline");
+		listaDeItens.add("Elikson");
+		System.out.println("Lista[0] = "+listaDeItens.get(0));
+		System.out.println("Lista[1] = "+listaDeItens.get(1));
+		System.out.println("Lista[2] = "+listaDeItens.get(2));
+		System.out.println("Lista[3] = "+listaDeItens.get(3));
+		
+	}
+
+}
